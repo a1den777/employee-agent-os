@@ -112,9 +112,6 @@ draft → trial → active → deprecated
 
 任何员工纠错都不能直接修改共享能力。先由 `skill-capture` 生成草稿，再由负责人检查来源、适用范围、失败条件和验收标准。
 
-## 适合作品集或简历的表述
-
-> 设计并开源员工 Agent OS：基于 Claude Code + CC-Connect 构建“一人一 Agent”的组织工作区框架，以 Git 管理员工上下文、共享 Vault 与 Skill 生命周期，通过 CLAUDE.md、权限边界和人工确认机制实现可审计的 Agent 部署；使用 TypeScript 定义与模型供应商无关的 Agent 接口，避免与单一模型厂商耦合。
 
 ## 参考
 
