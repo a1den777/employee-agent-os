@@ -1,0 +1,24 @@
+# Copy to the cc-connect config location and replace placeholders.
+# One [[projects]] block represents one employee Agent session.
+
+[[projects]]
+name = "employee-agent-member-template"
+
+[projects.agent]
+type = "claudecode"
+
+[projects.agent.options]
+work_dir = "/absolute/path/to/employee-agent-os/agents/member-template"
+mode = "default"
+
+[[projects.platforms]]
+type = "feishu"
+
+[projects.platforms.options]
+app_id = "${FEISHU_APP_ID}"
+app_secret = "${FEISHU_APP_SECRET}"
+
+# Duplicate the project block for each employee and change only:
+# - name
+# - work_dir, for example agents/member-001
+# - platform access rules, if required
