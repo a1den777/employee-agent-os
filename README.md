@@ -60,16 +60,6 @@ FDE 交付时应至少留下这些可审计产物：
 
 详细的 FDE 现场工作流见 [`docs/FDE-PLAYBOOK.md`](docs/FDE-PLAYBOOK.md)。
 
-## 项目视觉素材
-
-| FDE 交付闭环 | 员工 Agent 工作区 |
-| --- | --- |
-| ![FDE 现场交付闭环](assets/fde/fde-delivery-loop.png) | ![员工 Agent 工作区](assets/fde/employee-workspace.png) |
-
-| Skill 生命周期 | 安全审批与外部动作 |
-| --- | --- |
-| ![Skill 生命周期](assets/fde/skill-lifecycle.png) | ![安全审批与外部动作](assets/fde/safe-approval.png) |
-
 ## 为什么代码很少
 
 本项目刻意不做以下事情：
@@ -162,3 +152,4 @@ draft → trial → active → deprecated
 - [真实 AI 接入](docs/REAL-AI.md)：安装 Claude Code、配置 CC-Connect 和接入飞书。
 - [CC-Connect](https://github.com/chenhg5/cc-connect)：连接 Claude Code 与飞书、Telegram、Slack 等消息平台。
 - [Claude Code MCP 文档](https://code.claude.com/docs/en/mcp)：为 Claude Code 接入外部工具和数据源。
+

@@ -86,3 +86,4 @@ draft → trial → active → deprecated
 - 有试点反馈和下一轮迭代计划。
 
 如果只能做 Prompt 演示、不能进入现场，也没有真实用户验证，那么它还不是完整的 FDE 交付。
+
