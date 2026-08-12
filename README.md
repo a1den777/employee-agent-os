@@ -2,7 +2,9 @@
 
 一个面向组织的、通用的员工 Agent 工作区模板。
 
-![Employee Agent OS 架构图](assets/employee-agent-os-architecture.png)
+<p align="center">
+  <img src="assets/employee-agent-os-architecture.png" alt="Employee Agent OS 架构图" width="100%" />
+</p>
 
 本项目不实现自己的大模型调用层，也不重复实现消息平台接入。项目将 Claude Code 作为 Agent Runtime，将 CC-Connect 作为“聊天平台 ↔ Agent 会话”的桥接层，将每个员工的工作区、Vault、CLAUDE.md 和 Skills 作为可版本控制的组织操作系统。
 
