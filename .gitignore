@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+vault/logs/*.jsonl
+vault/inbox/*
+!vault/inbox/.gitkeep
+cc-connect.toml
