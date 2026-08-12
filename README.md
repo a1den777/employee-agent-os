@@ -2,9 +2,7 @@
 
 一个面向组织的、通用的员工 Agent 工作区模板。
 
-<p align="center">
-  <img src="assets/employee-agent-os-architecture.png" alt="Employee Agent OS 架构图" width="100%" />
-</p>
+<img width="1672" height="941" alt="Employee Agent OS 架构图" src="https://github.com/user-attachments/assets/3f0520ee-e367-4e36-aa50-eeb1bdeede4a" />
 
 本项目不实现自己的大模型调用层，也不重复实现消息平台接入。项目将 Claude Code 作为 Agent Runtime，将 CC-Connect 作为“聊天平台 ↔ Agent 会话”的桥接层，将每个员工的工作区、Vault、CLAUDE.md 和 Skills 作为可版本控制的组织操作系统。
 
@@ -61,6 +59,16 @@ FDE 交付时应至少留下这些可审计产物：
 - 试点反馈与结果：真实用户反馈、节省的步骤或时间、错误类型和下一轮改动。
 
 详细的 FDE 现场工作流见 [`docs/FDE-PLAYBOOK.md`](docs/FDE-PLAYBOOK.md)。
+
+## 项目视觉素材
+
+| FDE 交付闭环 | 员工 Agent 工作区 |
+| --- | --- |
+| ![FDE 现场交付闭环](assets/fde/fde-delivery-loop.png) | ![员工 Agent 工作区](assets/fde/employee-workspace.png) |
+
+| Skill 生命周期 | 安全审批与外部动作 |
+| --- | --- |
+| ![Skill 生命周期](assets/fde/skill-lifecycle.png) | ![安全审批与外部动作](assets/fde/safe-approval.png) |
 
 ## 为什么代码很少
 
