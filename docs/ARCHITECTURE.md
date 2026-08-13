@@ -18,6 +18,8 @@ Claude Code ──── 推理、工具、MCP 和本地执行
 共享 Vault ────── 公司事实、员工画像、Skills 和日志
 ```
 
+当多个员工需要共享同一套知识时，Vault 可以通过 `src/vault-mcp.ts` 作为 MCP Streamable HTTP 服务运行。Agent 只通过 `vault_list`、`vault_read`、`vault_search`、`vault_write` 和 `vault_history` 访问共享知识；身份 token 在服务层映射为员工权限，普通员工只能提交收件箱资料和 Skill 草稿，不能直接覆盖 active Skill。具体启动方式见 [`docs/VAULT-MCP.md`](VAULT-MCP.md)。
+
 本仓库负责工作区协议，不负责模型运行时。
 
 ## FDE 交付闭环

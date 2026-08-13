@@ -148,6 +148,7 @@ draft → trial → active → deprecated
 ## 参考
 
 - [真实 AI 接入](docs/REAL-AI.md)：安装 Claude Code、配置 CC-Connect 和接入飞书。
+- [Vault 服务 + MCP](docs/VAULT-MCP.md)：将本地 Vault 变成带身份、权限和审计的共享 MCP 服务。
 - [CC-Connect](https://github.com/chenhg5/cc-connect)：连接 Claude Code 与飞书、Telegram、Slack 等消息平台。
 - [Claude Code MCP 文档](https://code.claude.com/docs/en/mcp)：为 Claude Code 接入外部工具和数据源。
 
