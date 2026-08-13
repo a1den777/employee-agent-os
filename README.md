@@ -25,7 +25,7 @@ Claude Code Agent
 - 一人一 Agent：每个员工对应一个 `agents/<member-id>/` 工作区。
 - Vault 是共享事实层：公司规则、员工画像、Skills、收件箱和审计记录均可审阅、版本控制。
 - Skill 是组织能力：员工纠正一个可复用的方法后，先沉淀为 `draft`，经人工审核后再变成 `active`。
-- 人在回路：发送消息、删除数据、修改权限、付款或修改外部系统前，Agent 只生成方案并等待确认。
+- Human-in-the-loop：发送消息、删除数据、修改权限、付款或修改外部系统前，Agent 只生成方案并等待确认。
 - 与模型供应商无关：TypeScript 只保留稳定的 `AgentHarness` 接口，未来可以接入 Claude Code、Codex、WorkBuddy、桌面 Agent 或自定义运行时。
 
 ## 面向 FDE 的定位
